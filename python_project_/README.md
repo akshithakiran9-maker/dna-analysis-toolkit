@@ -1,5 +1,5 @@
  BIOINFORMATICS TOOLKIT USING PYTHON(v1.0)
- Author: kunduru Akshitha Kiran
+---
 A bioinformatics toolkit built in Python to perform fundamental DNA sequence analysis, inspired by real-world genomic data processing workflows.
 
 ---
