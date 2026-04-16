@@ -2,6 +2,19 @@
 
 A Python-based bioinformatics toolkit for analyzing DNA sequences and extracting meaningful biological insights.
 
+
+---
+What This Project Does
+
+This tool allows users to input DNA sequences and automatically performs multiple analyses commonly used in bioinformatics:
+
+Validates DNA sequences (A, T, G, C)
+Calculates nucleotide composition and GC content
+Generates reverse complement sequences
+Translates DNA into protein sequences
+Identifies repeating motifs (k-mers)
+Detects mutations between two sequences
+
 ## Features
 
 -  DNA sequence validation  
@@ -12,7 +25,6 @@ A Python-based bioinformatics toolkit for analyzing DNA sequences and extracting
 -  Motif (pattern) detection  
 -  Mutation identification between sequences  
 
----
 
 ##  Technologies Used
 
