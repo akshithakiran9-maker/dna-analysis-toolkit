@@ -12,11 +12,6 @@ Features:
 - Mutation detection
 ...
 """
-
-
-
-
-
 # SEQUENCE INPUT
 dna = input("enter the dna sequence :  ")   # Take DNA input from user
 dna = dna.upper()                           # Convert to uppercase
@@ -156,25 +151,6 @@ else:
             print("Position", i+1, ":", original[i], "→", mutated[i])
 
             
-def main():
-    dna_input = input("Enter DNA sequence: ")
-
-    valid, dna = validate_dna(dna_input)
-    if not valid:
-        print("Invalid DNA sequence")
-        return
-
-    print("\nValid DNA:", dna)
-
-    print("\nStats:", calculate_stats(dna))
-    print("Reverse Complement:", reverse_complement(dna))
-    print("Protein:", translate(dna))
-    print("Motifs:", find_motifs(dna))
-
-    original = input("\nEnter original DNA: ")
-    mutated = input("Enter mutated DNA: ")
-    print("Mutations:", detect_mutations(original, mutated))
 
 
-if __name__ == "__main__":
-    main()
+   
