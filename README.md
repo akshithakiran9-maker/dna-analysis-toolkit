@@ -1,4 +1,4 @@
-# 🧬 DNA Analysis Toolkit
+#  DNA Analysis Toolkit
 
 A Python-based bioinformatics toolkit for analyzing DNA sequences and extracting meaningful biological insights.
 
@@ -47,4 +47,5 @@ python dna_toolkit.py
 
 ```bash
 python dna_toolkit.py
-This project was developed as to gain hands-on experience in DNA sequence analysis and tounderstand datas can be processed using python
+
+This project was developed to gain hands-on experience in DNA sequence analysis and to understand data can be processed using python
